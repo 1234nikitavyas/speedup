@@ -1,0 +1,63 @@
+                                        +----------------------+
+                                        |      Crop            |
+                                        +----------------------+
+                                        | crop_id              |
+                                        | crop_name            |
+                                        | planting_date        |
+                                        | harvesting_date      |
+                                        | cultivation_method   |
+                                        | ...                  |
+                                        +----------------------+
+                                                 |
+                                                 |
+                                                /|\
+                                          Many/   \Many
+                                             /     \
+                                            /       \
+                             +----------------------+     
+                             |    Crop_Inventory     |
+                             +----------------------+     
+                             | crop_id              |
+                             | inventory_id         |
+                             | quantity             |
+                             | ...                  |
+                             +----------------------+
+                                                 |
+                                                 |
+                                                /|\
+                                          Many/   \Many
+                                             /     \
+                                            /       \
+                                 +------------------+
+                                 |     Inventory     |
+                                 +------------------+
+                                 | inventory_id     |
+                                 | item_name        |
+                                 | purchase_date    |
+                                 | expiration_date  |
+                                 | ...              |
+                                 +------------------+
+                                          |
+                                          |
+                                         /|\
+                                   Many/   \Many
+                                      /     \
+                                     /       \
+                           +------------------+
+                           |     Equipment     |
+                           +------------------+
+                           | equipment_id     |
+                           | equipment_name   |
+                           | availability     |
+                           | maintenance_schedule |
+                           | ...              |
+                           +------------------+
+                                          |
+                                          |
+                                         /|\
+                                   Many/   \Many
+                                      /     \
+                                     /       \
+                          +-------------------+
+                          |   Crop_Equipment   |
+                          +-------------------+

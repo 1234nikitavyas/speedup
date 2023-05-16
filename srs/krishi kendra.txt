@@ -1,0 +1,48 @@
+Software Requirements Specification (SRS) for Agriculture Centre Management System
+
+1. Introduction
+   1.1 Purpose
+   The purpose of this document is to provide a detailed description of the requirements for an Agriculture Centre Management System. It outlines the features, functionalities, and constraints of the system, serving as a guide for the development team.
+
+   1.2 Scope
+   The Agriculture Centre Management System is designed to streamline and automate the operations of an agriculture centre or farm. It aims to assist in managing crops, inventory, equipment, employees, and financial aspects of agriculture-related activities.
+
+   1.3 Definitions, Acronyms, and Abbreviations
+   - SRS: Software Requirements Specification
+   - UI: User Interface
+   - API: Application Programming Interface
+   - CRM: Customer Relationship Management
+
+   1.4 References
+   Include any references to external documents or resources that are relevant to the SRS.
+
+   1.5 Overview
+   This document consists of several sections, including an introduction, functional requirements, non-functional requirements, user interfaces, system constraints, and system architecture.
+
+2. Functional Requirements
+   2.1 Crop Management
+       - The system shall allow the management of different types of crops, including details such as crop variety, planting dates, harvesting dates, and cultivation methods.
+       - The system shall provide features to track crop growth, monitor irrigation and fertilization schedules, and record pest control measures.
+       - The system shall generate reports and analytics on crop productivity, yield, and quality.
+
+   2.2 Inventory Management
+       - The system shall facilitate the management of inventory, including seeds, fertilizers, pesticides, equipment, and other agricultural supplies.
+       - The system shall allow the tracking of inventory levels, procurement, and consumption of resources.
+       - The system shall send alerts or notifications when inventory levels are low or when items are about to expire.
+
+   2.3 Equipment Management
+       - The system shall provide features to manage agricultural equipment, including details such as equipment type, maintenance schedules, and availability.
+       - The system shall allow the scheduling of equipment usage, maintenance, and repairs.
+       - The system shall generate reports on equipment utilization, maintenance history, and costs.
+
+   2.4 Employee Management
+       - The system shall facilitate the management of employees and their roles within the agriculture centre.
+       - The system shall enable employee scheduling, task assignment, and performance tracking.
+       - The system shall maintain employee records, including personal information, attendance, and payroll.
+
+   2.5 Financial Management
+       - The system shall support financial management functionalities, including budgeting, expense tracking, and revenue generation.
+       - The system shall generate financial reports, including profit and loss statements, balance sheets, and cash flow statements.
+       - The system shall provide features for invoicing, payment tracking, and customer billing for products or services provided by the agriculture centre.
+
+   2.6 Reporting and Analytics
